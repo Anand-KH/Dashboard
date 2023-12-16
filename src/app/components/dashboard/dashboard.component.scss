@@ -1,0 +1,156 @@
+h2,
+h4,
+h3,
+h1,
+h5 {
+  margin: 0;
+}
+.closeIcon {
+  position: absolute;
+  right: 40px;
+}
+.notificationAlign {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #292945;
+  color: white;
+  height: 65px;
+}
+.buttonlearn {
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.ptextalign {
+  padding-top: 12px;
+}
+.container {
+  height: calc(100vh - 65px);
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.blackFont {
+  font-size: 25px;
+  font-weight: 700;
+}
+.divHeight {
+  height: calc(100vh - 200px);
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.newCard {
+  text-align: center;
+  border: 2px dotted #dcd8d8;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.newCardFont {
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.whitebox {
+  background: white;
+  margin: 8px;
+  padding: 15px 20px;
+  display: flex;
+  border-radius: 15px;
+  height: fit-content;
+}
+.whitebox1 {
+  background: white;
+  margin: 8px;
+  padding: 15px 20px;
+  border-radius: 15px;
+  height: fit-content;
+}
+.quickActions {
+  font-weight: 500;
+  font-size: 15px;
+}
+mat-form-field {
+  margin: 0;
+  border-bottom: none;
+  width: 100%;
+}
+.formSearch {
+  // margin: 0;
+  border-bottom: none;
+  width: 50% !important;
+}
+::ng-deep .mat-mdc-form-field-subscript-wrapper {
+  display: none;
+}
+.box {
+  border: 2px solid #ebebeb;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 4px 10px;
+  margin: 0px 5px;
+}
+.box1 {
+  border: 2px solid #ebebeb;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 4px 10px;
+  margin: 0px 5px;
+  padding: 15px 15px;
+}
+.alignIcon {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.atm {
+  height: 180px;
+  width: 100%;
+  background: rgb(175, 173, 173);
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.borderBox {
+  border: 1px solid #ebebeb;
+  padding: 15px 18px;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.borderBox1 {
+  border: 1px solid #ebebeb;
+  padding: 15px 18px;
+  // display: inline-flex;
+  // justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+::ng-deep .mdc-linear-progress__bar-inner {
+  border-color: #131313 !important;
+}
+.tableheader {
+  background-color: #ebebeb !important;
+  height: 10px !important;
+}
+td {
+  font-weight: 500;
+}
+.moneyStatics {
+  font-weight: 600;
+  font-size: 13px;
+  color: #696969;
+}
+.moneyStatisstats {
+  margin: 10px 0px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.tableHeight {
+  height: 400px;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-top: 10px;
+}

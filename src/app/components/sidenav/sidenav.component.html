@@ -1,0 +1,83 @@
+<mat-sidenav-container class="sidenav">
+  <mat-sidenav mode="side" opened></mat-sidenav>
+  <mat-sidenav-content>
+    <div class="sidenavContent">
+      <h2>
+        <span class="fontweight">
+          <!-- <img fxFlex="20" src="assets/hexagon.png" alt="shape" width="40" /> -->
+          <i style="margin: 0px !important"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              style="padding-top: 10px"
+              fill="currentColor"
+              class="bi bi-hexagon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M14 4.577v6.846L8 15l-6-3.577V4.577L8 1l6 3.577zM8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z"
+              />
+            </svg>
+          </i>
+          <span
+            style="margin-left: 12px; padding-top: 10px; position: absolute"
+          >
+            Hexa Bank
+          </span>
+          <span>
+            <i
+              class="fas fa-angle-left"
+              style="float: right; padding-top: 17px"
+            ></i>
+          </span>
+        </span>
+      </h2>
+      <h2 style="font-size: 16px; font-weight: 600">
+        <i
+          class="fa-regular fa-circle-user"
+          style="font-size: 25px; margin: 0px !important"
+        ></i>
+        <span style="margin-left: 12px">Akmal Nasrulloh</span>
+
+        <i class="fa-solid fa-sort" style="float: right; padding-top: 5px"></i>
+      </h2>
+      <mat-divider class="marginupDown20"></mat-divider>
+      <p class="colorGrey">MENU</p>
+      <mat-nav-list
+        ><i class="fa-brands fa-microsoft"></i> Overview
+      </mat-nav-list>
+      <mat-nav-list><i class="fa-solid fa-list"></i> Transaction</mat-nav-list>
+      <mat-nav-list>
+        <i class="fa-solid fa-chart-column"></i> Analytics
+      </mat-nav-list>
+      <mat-nav-list>
+        <i class="fa-regular fa-credit-card"></i> Cards
+      </mat-nav-list>
+      <mat-divider class="marginupDown20"></mat-divider>
+      <p class="colorGrey">GENERAL</p>
+      <mat-nav-list><i class="fa-solid fa-gear"></i> Settings</mat-nav-list>
+      <mat-nav-list>
+        <i class="fa-solid fa-clipboard-question"></i>
+        Help/Support
+      </mat-nav-list>
+      <mat-nav-list
+        ><i class="fa-regular fa-moon"></i> Drak Mode
+        <mat-slide-toggle
+          class="alignright"
+          [(ngModel)]="isChecked"
+        ></mat-slide-toggle
+      ></mat-nav-list>
+      <mat-divider class="marginupDown20"></mat-divider>
+      <div class="newpaymentBorder" fxLayout="column">
+        <div fxFle="100" class="addCircleBorder">
+          <i
+            class="fa-solid fa-circle-plus"
+            style="font-size: 50px; margin: 0px !important"
+          ></i>
+        </div>
+        <h2 fxFle="100">New Payment</h2>
+      </div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

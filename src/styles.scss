@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+  background: #f6f6f6;
+  color: #131313;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+h2,
+p,
+h4,
+h3,
+h1,
+h5 {
+  margin: 0;
+}
+.colorGrey {
+  color: #696969;
+}
+.alignright {
+  float: right;
+}
+.fontSize17 {
+  font-size: 17px;
+}
+.fontSize12 {
+  font-size: 12px;
+}
+.fontSize13 {
+  font-size: 13px;
+}
+.fontSize14 {
+  font-size: 14px;
+}
+.fontSize15 {
+  font-size: 15px;
+}
+.fontSize16 {
+  font-size: 16px;
+}
+.fontSize20 {
+  font-size: 20px;
+}
+.marginleftRight20 {
+  margin: 0px 20px;
+}
+.marginupDown10 {
+  margin: 10px 0px;
+}
+.marginupDown20 {
+  margin: 20px 0px;
+}
+.fontWeight500 {
+  font-weight: 500;
+}
+.fontWeight600 {
+  font-weight: 600;
+}
